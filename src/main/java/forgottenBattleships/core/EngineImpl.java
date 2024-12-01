@@ -72,28 +72,28 @@ public class EngineImpl implements Engine {
 
     private String addBattleZone(String[] data) {
         //TODO
-        return null;
+        return controller.addBattleZone(data[0], Integer.parseInt(data[1]));
     }
 
     private String addBattleshipToBattleZone(String[] data) {
         //TODO
-        return null;
+        return controller.addBattleshipToBattleZone(data[0], data[1], data[2], Integer.parseInt(data[3]));
     }
 
     private BattleZone getBattleZoneByName(String[] data) {
         //TODO
-        return null;
+        return controller.getBattleZoneByName(data[0]);
 
     }
 
     private String startBattle(String[] data) {
         //TODO
-        return null;
+        return controller.startBattle(data[0], data[1], data[2]);
     }
 
 
     private String getStatistics() {
         //TODO
-        return null;
+        return controller.getStatistics();
     }
 }

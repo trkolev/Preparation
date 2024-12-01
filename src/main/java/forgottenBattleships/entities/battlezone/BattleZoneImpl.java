@@ -12,7 +12,7 @@ public class BattleZoneImpl implements BattleZone {
 
     private String name;
     private int capacity;
-    private Collection<Battleship> ships;
+    private List<Battleship> ships;
 
     public BattleZoneImpl(String name, int capacity) {
         setName(name);
